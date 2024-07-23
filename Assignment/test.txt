@@ -1,0 +1,79 @@
+Meeting Overview
+
+The team discussed updates on the basement validation, refresh completion, Azure functions development, database access creation, and dashboard development for EDA insights, including vendor name display and filter functionality.
+A meeting was held to discuss data visualizations, including shipment trends, vendor counts by channel and origin state, shipment types based on weight and location, and vendor performance based on shipment weight.
+The meeting focused on reviewing and discussing changes to a vendor performance dashboard, including adding filters, adjusting metrics, and improving data accuracy.
+
+Discussion Items
+
+* Discussion Item : Basement Validation
+- Basement validation changes made on Thursday and PBX file provided.
+- KPI validation completed and final stage of validation in progress.
+- Updated version to be uploaded after validation and pushed to pre-prod environment.
+
+* Discussion Item : Phase Two Development
+- Phase two development complete on the development side.
+- Modules migrated include pick up and delivery tool.
+- Azure functions utilizing Azure storage for preprocessing and feature engineering.
+- Connection string for DB required to replace Azure storage with actual DB.
+
+* Discussion Item : Database Access
+- Request for status on creating database access for the team.
+- Meeting with data team scheduled to check on progress.
+
+* Discussion Item : Dashboard Development
+- Dashboard development for EDA insights complete for both pickup and delivery.
+- Top five vendors based on pickup count displayed in the dashboard.
+- Vendor code currently displayed, but vendor name requested for clarity.
+- Vendor name to be included in tool tip for bar chart.
+- Filters at the top of the dashboard will affect the data displayed.
+* Discussion Item : Shipment Count by Shipment Type and Month
+- Detailed Description Point 1: The chart shows the count of shipments by shipment type and month.
+- Detailed Description Point 2: The chart highlights the months with the highest number of shipments for each shipment type.
+
+* Discussion Item : Time Period with Most Delays
+- Detailed Description Point 1: The chart shows the count of shipments by delay period (1-10 days, 10-30 days, 30-35 days, and 35+ days).
+- Detailed Description Point 2: The chart highlights the delay periods with the highest number of shipments.
+
+* Discussion Item : Count of Vendor by Channel and Origin State
+- Detailed Description Point 1: The chart shows the count of shipments by channel and origin state.
+- Detailed Description Point 2: The chart highlights the channels and origin states with the highest number of shipments.
+
+* Discussion Item : Shipment Type Based on Weight and Location
+- Detailed Description Point 1: The chart shows the average shipment weight by shipment type and pick-up state.
+- Detailed Description Point 2: The chart highlights the shipment types and pick-up states with the highest average shipment weight.
+
+* Discussion Item : Top 5 Pick-up Vendors Based on Shipment Weight
+- Detailed Description Point 1: The chart shows the top 5 pick-up vendors based on the total weight of shipments.
+- Detailed Description Point 2: The chart highlights the vendors with the highest total shipment weight.
+
+* Discussion Item : Bubble Chart Representing Consistency in Pick-up Performance
+- Detailed Description Point 1: The bubble chart shows the consistency of pick-up performance for different vendors.
+- Detailed Description Point 2: The chart highlights the vendors with the highest consistency in pick-up performance.
+* Discussion Item : Vendor Performance Dashboard
+- Vendor name will be included in the tool tip.
+- Bubble chart size represents shipment count.
+- Color represents vendor code.
+- Multiple vendor code selections can be made to view information.
+- Filter for network will be added.
+
+* Discussion Item : Pickup and Delivery Performance by State
+- Tool tip does not include shipment count.
+- Clicking on a score will change all visuals.
+- DPS RDD and DPS actual delivery date are being used on all cards.
+
+* Discussion Item : Vendor Power BI Report Replacement
+- This dashboard will replace the vendor Power BI report to a certain degree.
+
+Action Items
+
+- Update the vendor name tool tip in the bar chart to display the vendor name when hovering over the vendor code.
+- Verify which field should be used to pull the vendor name from the vendor dimension.
+- Change the shipment actual weight from shipment details to DPS shipment or table.
+- Change the top six to top five pick up vendor based on shipment weight.
+- Jamal Asif will include the vendor name in the tool tip.
+- Jamal Asif will make changes to the bubble chart to represent consistency and pickup performance.
+- Sujai Kumar will add a filter for network to the top of the dashboard.
+- Amanda Colon will change the buckets for the delays in both the pickup and delivery visuals.
+- Amanda Colon will get feedback from OPS on the changes to the delay buckets.
+

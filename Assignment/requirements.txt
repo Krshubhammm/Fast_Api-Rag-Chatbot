@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+PyPDF
+langchain
+openai
+faiss-cpu
+langchain_community
+langchain_openai
+langchain_google_genai
